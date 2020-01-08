@@ -1,0 +1,77 @@
+.cell {
+    background-color: grey;
+}
+
+.pressed {
+    background-color: white;
+}
+
+.flag {
+    background-color: blueviolet;
+}
+
+.mine, .cell {
+    text-align: center;
+}
+
+
+.backgroundWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalWindow {
+    position: fixed;
+    margin-top: 210px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+    padding: 50px;
+    background-color: #ffb9eb;
+    border-radius: 10px;
+    box-shadow: 0 0 45px -4px rgba(249,252,60,1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.game-menu {
+    width: 100%;
+    margin: 12px;
+    padding: 6px;
+}
+
+.game-menu_label {
+    display: block;
+    padding: 6px;
+    margin: 12px;
+}
+
+.btn {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 2px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0e4f1f;
+}
+
+.game-menu_label_input {
+    text-align: center;
+    width: 84px;
+    height: 20px
+}
