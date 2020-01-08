@@ -1,3 +1,4 @@
 ## GitHub Pages by SergeyOs
+### Please try it
 
-[I'm an inline-style link with title](https://github.com/Sergey0s/Sergey0s.github.io/blob/master/minesweaper/index.html "Игра сапер на JavaScript")  
+[Игра сапер на JavaScript](https://Sergey0s.github.io/minesweaper)  
